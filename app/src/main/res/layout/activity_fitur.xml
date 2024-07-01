@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fitur3"
+    tools:context=".FiturActivity">
+
+    <!-- Header -->
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Azure"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/header_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="FITUR"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/blues" />
+
+    </RelativeLayout>
+
+    <!-- Content -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/content_card"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="@color/Azure"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:layout_constraintTop_toBottomOf="@id/header"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• time    :2139 non-null   int64  "
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• trt        :2139 non-null   int64"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• age     :2139 non-null   int64 "
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• wtkg   :2139 non-null   float64"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• hemo :2139 non-null   int64 "
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• homo : 2139 non-null   int64 "
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• drugs :2139 non-null   int64"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• karnof:2139 non-null   int64"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• oprior :2139 non-null   int64"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• z30     :2139 non-null   int64 "
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• preanti :2139 non-null   int64"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• race    :2139 non-null   int64"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• gender:2139 non-null   int64"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• str2    :2139 non-null   int64 "
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• strat   :2139 non-null   int64"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• symptom :2139 non-null   int64"
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• treat   :2139 non-null   int64 "
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="• offtrt  :2139 non-null   int64 "
+                    android:textColor="@color/black"
+                    android:textStyle="italic"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

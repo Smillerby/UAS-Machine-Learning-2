@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/simulasi3"
+    tools:context=".SimulasiModelActivity">
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_wtkg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Weight (kg)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/et_karnof"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Karnof"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_preanti"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pre Anti"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_race"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Race"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/et_cd40"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CD40"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/et_cd420"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CD420"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btn_simulate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simulate" />
+
+</LinearLayout>
